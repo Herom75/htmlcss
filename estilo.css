@@ -1,0 +1,92 @@
+h1{
+    color:orange !important;
+    font-size: 60;
+}
+
+h2{
+    color: purple !important;
+    font-size: 52;
+}
+
+h1,h2,h3,h4{
+ text-align: center;   
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border:5px dotted green;
+    /*border-top-width: 5px;
+    border-top-style: dashed;
+    border-top-color: blueviolet;*/
+    border-radius: 50%;
+    /*display: block;
+    margin: 0 auto;*/
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+figure{
+    text-align: center;
+}
+
+ul{
+    list-style: katakana;
+}
+
+ul>li{
+    display: inline;
+}
+
+ul>li>a{
+    color: white;
+    background-color: green;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul>li>a:hover{
+    background-color: white;
+    color: green;
+    border: 2px dotted green;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    display:block;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid green;
+    outline: none;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 3px solid green;
+    outline: none;
+}
+
+button{
+    background-color: green;
+    padding:10px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}

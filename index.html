@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Portal de notícias - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width;initial-scale=1.0">
+        <link rel="Stylesheet" href="estilo.css">
+        <style>
+            h2{
+                color:red;
+                font-size: 40px
+            }
+            p{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:blue;font-size:48px;">Notícias do dia</h1>
+        <h2>As notícias mais importantes do dia</h2>
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="horoscopo.html">Horóscopo</a>
+                    </li>
+                    <li>
+                        <a href="http://www.tempoagora.com.br"
+                        target="_blank">Tempo Agora</a>
+                    </li>
+                    <li>
+                        <a href="#Contatos">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <h3>Spider-Man No Way Home</h3>
+                <figure>
+                    <img src="imagens/Spider_Man_No_Way_Home.png"alt="Poster do homem-aranha - Sem volta para casa">
+                    <figcaption>Poster do homem-aranha - Sem volta para casa</figcaption>
+                </figure>
+                <p>
+                    *Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos exercitationem tenetur, voluptatibus fuga natus tempore eum fugit ea explicabo ratione culpa dignissimos officiis aliquam. Fugit voluptas ea accusantium omnis incidunt. Quaerat odit numquam ad cupiditate unde libero explicabo officiis.
+                </p>
+                <p>
+                    *Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum id illo fugiat quod at autem quam, ipsa odit vitae commodi eveniet quia. Omnis tenetur rem nostrum velit quae et! <br>Architecto beatae id debitis dicta natus iure voluptatum asperiores ullam quo odit reiciendis repellendus dignissimos non, quasi tempore a optio? Sapiente ducimus neque, natus eligendi repellat quasi, porro aut incidunt accusantium odio impedit laboriosam doloremque saepe itaque cum perferendis. Sapiente tempora at dolores ullam doloribus officiis reprehenderit beatae quod velit ducimus voluptas libero, soluta culpa eligendi id ab eius perspiciatis magnam nostrum quas exercitationem dicta ipsum consectetur. Laborum beatae repellat ipsum?
+                </p>
+            </section>
+            <section>
+                <h3> The book of Boba Fett </h3>
+                <figure>
+                    <img src="imagens/Boba_Fett.jfif"alt="Poster da série O livro Do Boba Fett">
+                    <figcaption>Poster da série O livro Do Boba Fett</figcaption>
+                </figure>
+                <h4> Watch in Disney+ </h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis ea non necessitatibus aut rem accusantium id laboriosam libero inventore maiores provident, assumenda quidem neque harum reprehenderit sint laborum sequi odio.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure quidem impedit deserunt commodi reiciendis asperiores, quam omnis hic vero, dolorum a magnam. Ad ducimus magnam error architecto quis! Autem nulla, culpa at unde excepturi, quae recusandae veniam accusantium, labore rerum vero optio? Eius, cum placeat impedit, laudantium similique voluptatum itaque illum sit laborum deleniti culpa nostrum ab, perspiciatis blanditiis eum? Aperiam obcaecati cumque, labore consectetur dolor magnam dolorum quae laborum illum inventore ipsa iste? Blanditiis eum eos modi temporibus omnis placeat, id saepe accusamus quas laboriosam, inventore perspiciatis ducimus, quis nisi suscipit. Ab harum consequuntur placeat modi nesciunt?
+                </p>
+            </section>
+            <section id="Contatos">
+                <h2>Fale conosco</h2>
+                <h3>Queremos saber a sua opinião sobre o nosso site</h3>
+                <form action="processa.php" method="post">
+                        <label for="nome">Digite seu nome:</label>
+                    <input type="text" name="nomeDoUsuario" id="nome" required>
+                    <br>
+                    <label for="email">Digite o seu email</label>
+                    <input type="email" name="emailDoUsuario" 
+                    id="email">
+                    <br>
+                    <label for="mensagem>">Digite sua mensagem</label>
+                    <textarea 
+                    name="mensagemDoUsuario"
+                    id="mensagem"
+                    cols="40"
+                    rows="10"
+                    required
+                    ></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
